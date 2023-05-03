@@ -1,0 +1,55 @@
+.custom-layout {
+  width: 100%;
+}
+
+.footer{
+    
+   width: 100%;    
+   display: flex;    
+   align-items: center;
+   flex-direction: column;
+    flex-wrap: wrap;     
+  
+        
+  }
+
+  .footer h2{
+    font-size: 12px;
+   text-align: center;
+    align-self:center;
+    margin-top: 10%;
+   
+  }
+
+  .img-footer img{
+    width:120px;
+    align-self: flex-end;
+    flex-wrap: wrap;  
+    margin-bottom: 5%;
+    margin-right: 5px;
+       
+  }
+
+  .img-footer{
+    display: flex;
+    align-self:flex-end;  
+   flex-wrap: wrap;
+  
+  }
+
+  .brands img{   
+      height:50px;
+      flex-wrap: wrap;     
+  }
+
+  .brands {
+  display: flex;  
+  max-width: 100%;
+  flex-wrap: wrap;
+  }
+
+  @media (max-width: 370px) {
+    .img-footer  img  {
+      width:90px;
+    }
+  }
